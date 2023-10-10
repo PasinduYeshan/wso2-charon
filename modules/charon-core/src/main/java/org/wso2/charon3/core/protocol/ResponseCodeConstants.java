@@ -33,6 +33,11 @@ public class ResponseCodeConstants {
     public static final int CODE_OK = 200;
     public static final int CODE_CREATED = 201;
     public static final int CODE_ACCEPTED = 202;
+
+    public static final String DESC_ACCEPTED = "The request has been accepted for processing, but the processing " +
+            "has not been completed. The request may or may not eventually be acted upon, as it may be disallowed " +
+            "when processing actually takes place. There is no facility for re-sending a status code from an " +
+            "asynchronous operation such as this.";
     public static final int CODE_NO_CONTENT = 204;
 
     public static final int CODE_TEMPORARY_REDIRECT = 307;
